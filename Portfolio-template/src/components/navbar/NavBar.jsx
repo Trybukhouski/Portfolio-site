@@ -1,29 +1,46 @@
-import React from 'react';
-import './style.css';
-import sun from "./icons/sun.svg"
-import moon from "./icons/moon.svg"
+import React from "react";
+import "./style.css";
+import sun from "./icons/sun.svg";
+import moon from "./icons/moon.svg";
 
 const NavBar = () => {
-    return (
-     <nav className="nav">
-        <div className="container">
-            <div className="nav-row">
-                <a href="./index.html" className="logo"><strong>Freelancer</strong> portfolio</a>
+  return (
+    <nav className="nav">
+      <div className="container">
+        <div className="nav-row">
+          <a href="./index.html" className="logo">
+            <strong>Freelancer</strong> portfolio
+          </a>
 
-                <button className="dark-mode-btn">
-                    <img src={sun} alt="Light mode" className="dark-mode-btn__icon"/>
-                    <img src={moon} alt="Dark mode" className="dark-mode-btn__icon"/>
-                </button>
+          <button className="dark-mode-btn">
+            <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
+            <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
+          </button>
 
-                <ul className="nav-list">
-                    <li className="nav-list__item"><a href="./index.html" className="nav-list__link nav-list__link--active">Home</a></li>
-                    <li className="nav-list__item"><a href="./projects.html" className="nav-list__link">Projects</a></li>
-                    <li className="nav-list__item"><a href="./contacts.html" className="nav-list__link">Contacts</a></li>
-                </ul>
-            </div>
+          <ul className="nav-list">
+            <li className="nav-list__item">
+              <a
+                href="./index.html"
+                className="nav-list__link nav-list__link--active"
+              >
+                Home
+              </a>
+            </li>
+            <li className="nav-list__item">
+              <a href="./projects.html" className="nav-list__link">
+                Projects
+              </a>
+            </li>
+            <li className="nav-list__item">
+              <a href="./contacts.html" className="nav-list__link">
+                Contacts
+              </a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    );
+      </div>
+    </nav>
+  );
 };
 
 export default NavBar;
