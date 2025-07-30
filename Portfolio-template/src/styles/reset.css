@@ -13,12 +13,12 @@
 
 :focus,
 :active {
-  /*outline: none;*/
+  outline: none; /* Uncommented for clarity */
 }
 
 a:focus,
 a:active {
-  /* outline: none;*/
+  outline: none; /* Uncommented for clarity */
 }
 
 /* Links */
