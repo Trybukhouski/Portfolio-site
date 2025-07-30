@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-import project01 from "./images/01.jpg";
-import project02 from "./images/02.jpg";
-import project03 from "./images/03.jpg";
-import project04 from "./images/04.jpg";
-import project05 from "./images/05.jpg";
-import project06 from "./images/06.jpg";
+import project01 from "../../assets/images/01.jpg";
+import project02 from "../../assets/images/02.jpg";
+import project03 from "../../assets/images/03.jpg";
+import project04 from "../../assets/images/04.jpg";
+import project05 from "../../assets/images/05.jpg";
+import project06 from "../../assets/images/06.jpg";
 
 const ProjectsPage = () => {
   return (
